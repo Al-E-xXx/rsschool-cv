@@ -1,2 +1,1 @@
-# main README file
-# add info in gh-pages branch
+https://Al-E-xXx.github.io/rsschool-cv/cv
