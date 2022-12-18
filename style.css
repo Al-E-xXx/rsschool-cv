@@ -1,0 +1,266 @@
+/*--- Custom Fonts ---*/ 
+
+/** Montserrat Regular **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+    src: url("./assets/fonts/Montserrat-Regular.woff") format("woff");
+}
+/** Montserrat Medium **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: normal;
+    src: url("./assets/fonts/Montserrat-Medium.woff") format("woff");
+}
+/** Montserrat SemiBold **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-style: normal;
+    src: url("./assets/fonts/Montserrat-SemiBold.woff") format("woff");
+}
+
+body {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(220,244,255,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 80%, rgba(220,244,255,1) 100%);
+    font-family: 'Montserrat';
+}
+
+header,
+main,
+footer {
+    width: 1200px;
+}
+
+header,
+footer,
+.main-left,
+h2 {
+    background-color: #252323;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: -600px;
+    margin-left: 50%;
+    height: 60px;
+    z-index: 10;  
+}
+
+nav {
+    padding: 0 40px 0 40px;
+}
+
+nav ul,
+nav ul li {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main,
+.main-left,
+.main-right {
+    min-height: calc(100vh - 160px);    
+}
+
+main {
+    display: flex;
+    margin-top: 60px;
+}
+
+.main-left {
+    width: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    z-index: 1;
+}
+
+.vertical-strip {
+    background-color: #ffffff;
+    width: 5px;
+    margin: 0 10px 0 10px;
+}
+
+.avatar {
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    overflow: hidden;
+    /* border-radius: 50%; */
+    left: 20px;
+    top: 40px;
+}
+
+.avatar img {
+    width: 100%;  
+    object-fit: cover;  
+}
+
+.main-right {
+    width: 900px;
+    background-color: #ffffff;
+    color: #1d1d1d;
+}
+
+.main-right h1,
+.main-right h2,
+.main-right h3,
+.main-right p {
+    padding: 0 40px 0 60px;
+}
+
+h1 {
+    font-size: 58px;
+    margin-bottom: 0;
+    width: 530px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 28px;
+    position: relative;
+}
+
+h2::before {
+    position: absolute;
+    content: "";
+    left: -22px;
+    top: 16px;
+    width: 44px;
+    height: 44px;
+    background-color: #ffffff;
+    transform: rotate(45deg);
+}
+
+.main-right {
+    font-size: 20px;
+}
+
+.main-right ul {
+    padding: 20px 40px 20px 120px;
+}
+
+.main-right ul li {
+    padding: 10px 0 10px 0;
+}
+
+.main-right pre {
+    background-color: #eeeeee;
+    margin: 40px 120px;
+    color: #666666;
+    padding-left: 40px;
+    border-radius: 10px;
+}
+
+p.description {
+    /* font-size: 18px; */
+    margin-top: 0px;
+    font-weight: 600;
+    width: 530px;
+    text-align: right;
+}
+
+section {
+    margin-top: 100px;
+}
+
+.projects-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects-wrapper a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 420px;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.projects-wrapper a:hover {
+    text-decoration: underline;
+    box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.projects-wrapper a span {
+    padding: 10px;    
+    color: #666666;
+}
+
+.projects-wrapper a img {
+    width: 100%;
+    object-fit: cover;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-item {
+    min-width: 200px;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin: 0 20px 0 20px;
+}
+
+.github-link {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 50px;
+    background-image: url(./assets/img/github-logo.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.github-link:hover {
+    text-decoration: underline;
+}
+
+.rs-link img {
+    height: 40px;
+}
