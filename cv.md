@@ -12,7 +12,6 @@ I worked as a system administrator, I do some PHP programming, I want to learn F
 * HTML
 * CSS
 * JS (jQuery)
-* PHP
 
 ## Code examples:
 ```
