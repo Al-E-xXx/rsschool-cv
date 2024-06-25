@@ -23,3 +23,12 @@ I am an experienced IT specialist. I am designing local networks, huge humanoid 
 * Joomla
 * WordPress
 * 1C Bitrix
+
+## Code examples:
+``` js
+function addQuotesFunc(str) {
+  const result = '«' + str + '»';
+  return result;
+}
+```
+
