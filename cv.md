@@ -1,7 +1,7 @@
 # Alexander Akatov
 
 ## My Contact Info:
-* Phone: +7 (911) 121 41 13
+* Phone: +7 (373) 121 69 69
 * Mail: animal@babruisk.com
 * Discord: Alexander Akatov (@Al-E-xXx)
 
