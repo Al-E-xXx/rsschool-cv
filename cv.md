@@ -34,4 +34,4 @@ function addQuotesFunc(str) {
 
 ## Languages:
 * Russian
-* English A1.5
+* English A2
