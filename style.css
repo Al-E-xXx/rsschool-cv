@@ -196,6 +196,43 @@ body {
   background-image: url("./img/icon-discord-50.png");
 }
 
+.projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  transition: var(--transition-time);
+  -webkit-transition: var(--transition-time);
+}
+
+.projects-wrapper__item {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  width: calc(50% - 10px);
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  transition: var(--transition-time);
+  -webkit-transition: var(--transition-time);
+  -webkit-box-shadow: 4px 0px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 0px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 0px 8px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 20px;
+  position: relative;
+}
+
+.projects-wrapper__item span {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.projects-wrapper__item_thumbnail {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
 .avatar-wrapper {
   border: 2px solid #ffffff;
   background-color: #efefef;
@@ -261,5 +298,10 @@ body {
   .footer__logo:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
+  }
+
+  .projects-wrapper__item:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
   }
 }
