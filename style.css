@@ -140,6 +140,14 @@ body {
   -webkit-transition: var(--transition-time);
 }
 
+.section_skills ul {
+  padding-left: 50px;
+}
+
+.section_skills ul li {
+  margin: 15px 0px 15px 0px;
+}
+
 .section-title_contacts {
   text-align: center;
   background-color: #555555;
