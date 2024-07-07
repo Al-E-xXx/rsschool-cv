@@ -1,5 +1,5 @@
 :root {
-  --transition-time: 0.3s ease;
+  --transition-time: 0.2s ease;
 }
 
 *,
@@ -83,4 +83,34 @@ body {
   justify-content: space-between;
   align-items: center;
   color: #ffffff;
+}
+
+.footer__item {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  transition: var(--transition-time);
+  -webkit-transition: var(--transition-time);
+}
+
+.footer__logo {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transition: var(--transition-time);
+  -webkit-transition: var(--transition-time);
+}
+
+.footer__logo_rsschool {
+  width: 120px;
+}
+
+.footer__logo_github {
+  width: 45px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .footer__logo:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
 }
