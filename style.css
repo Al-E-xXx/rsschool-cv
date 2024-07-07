@@ -140,11 +140,15 @@ body {
   -webkit-transition: var(--transition-time);
 }
 
-.section_skills ul {
+.section_skills ul,
+.section_languages ul,
+.section_education ul {
   padding-left: 50px;
 }
 
-.section_skills ul li {
+.section_skills ul li,
+.section_languages ul li,
+.section_education ul li {
   margin: 15px 0px 15px 0px;
 }
 
