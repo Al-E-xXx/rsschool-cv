@@ -6,11 +6,114 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RS School CV</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="icon" href="./favicon.ico">
 </head>
 
-<body>
+<body class="body">
   <div class="container">
-
+    <header class="header">
+      <div class="header-menu-wrapper">
+        <nav class="header-menu">
+          <ul class="header-menu__list">
+            <li class="header-menu__item"><a class="header-menu__link" href="#about">About</a></li>
+            <li class="header-menu__item"><a class="header-menu__link" href="#contacts">Contacts</a></li>
+            <li class="header-menu__item"><a class="header-menu__link" href="#skills">Skills</a></li>
+            <li class="header-menu__item"><a class="header-menu__link" href="#code">Code Example</a></li>
+            <li class="header-menu__item"><a class="header-menu__link" href="#projects">My Projects</a></li>
+            <li class="header-menu__item"><a class="header-menu__link" href="#education">Education</a></li>
+            <li class="header-menu__item"><a class="header-menu__link" href="#languages">Languages</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="right-column">
+        <section class="section section_page-title" id="page-title">
+          <h1 class="main-title">Alexander Akatov</h1>
+          <p class="main-description">Fullstack Developer</p>
+        </section>
+        <section class="section section_about-me" id="about">
+          <h2 class="section-title section-title_about">About me:</h2>
+          <p>I worked as a system administrator for a long time, learning programming in my spare time. I'm going to
+            become a professional in front-end and back-end development.</p>
+          <p>I am also fond of electronics, music, video processing. I love traveling and hiking in nature.</p>
+        </section>
+        <section class="section section_skills" id="skills">
+          <h2 class="section-title section-title_skills">Skills:</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS, SCSS</li>
+            <li>JavaScript, Jquery</li>
+            <li>PHP, Yii2</li>
+            <li>MySQL, Mariadb</li>
+            <li>Windows, Linux, MacOs</li>
+          </ul>
+        </section>
+        <section class="section section_code" id="code">
+          <h2 class="section-title section-title_skills">Code Example:</h2>
+          <div class="code-wrapper">
+            <pre>
+    <code>
+      function numberToString(num) {
+        return String(num);
+      }
+    </code>
+  </pre>
+          </div>
+        </section>
+        <section class="section section_projects" id="projects">
+          <h2 class="section-title">My Projects:</h2>
+          <div class="projects-wrapper">
+            <a class="projects-wrapper__item" href="https://al-e-xxx.github.io/rsschool-cv/" target="_blank">
+              <img class="projects-wrapper__item_thumbnail" src="./img/thumbnail-cv.jpg" alt="My CV">
+              <span>My CV</span>
+            </a>
+            <a class="projects-wrapper__item" href="https://al-e-xxx.github.io/rsschool-cv/" target="_blank">
+              <img class="projects-wrapper__item_thumbnail" src="./img/thumbnail-ihear.jpg" alt="My CV">
+              <span>I can hear</span>
+            </a>
+          </div>
+        </section>
+        <section class="section section_education" id="education">
+          <h2 class="section-title">Education:</h2>
+          <ul>
+            <li>Secondary School</li>
+            <li>I am studying from June 24, 2024 to the present</li>
+          </ul>
+        </section>
+        <section class="section section_languages" id="languages">
+          <h2 class="section-title">Languages:</h2>
+          <ul>
+            <li>Russian (native)</li>
+            <li>English A2</li>
+          </ul>
+        </section>
+      </div>
+      <div class="left-column">
+        <div class="avatar-wrapper">
+          <img class="avatar" src="./img/nathan-explosion-500.jpg" alt="My avatar">
+        </div>
+        <section class="section section_contacts" id="contacts">
+          <h2 class="section-title section-title_contacts">Contacts:</h2>
+          <ul class="contacts-list">
+            <li class="contacts-list__item contacts-list__item_phone">+4 (383) 129 47 13</li>
+            <li class="contacts-list__item contacts-list__item_email">beaver69@babruisk.com</li>
+            <li class="contacts-list__item contacts-list__item_telegram">Alexander1349</li>
+            <li class="contacts-list__item contacts-list__item_discord">alexxx#1248</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <a class="footer__item" href="https://rs.school/courses/javascript-ru" target="_blank">
+        <img class="footer__logo footer__logo_github" src="./img/github-logo.svg" alt="My GitHub">
+      </a>
+      <div class="footer__item">&copy; 2024</div>
+      <a class="footer__item" href="https://rs.school/courses/javascript-ru" target="_blank">
+        <img class="footer__logo footer__logo_rsschool" src="./img/rs-school-logo.svg" alt="RS School">
+      </a>
+    </footer>
   </div>
 </body>
 
