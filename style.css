@@ -24,6 +24,7 @@ html {
 body {
   margin: 0;
   padding: 0px 20px;
+  min-width: 980px;
   background-color: #efefef;
   transition: var(--transition-time);
   -webkit-transition: var(--transition-time);
@@ -88,6 +89,7 @@ body {
   display: block;
   padding: 10px;
   height: 100%;
+  flex-shrink: 0;
   transition: var(--transition-time);
   -webkit-transition: var(--transition-time);
 }
