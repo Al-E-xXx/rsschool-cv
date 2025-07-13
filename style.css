@@ -30,6 +30,10 @@ body {
   -webkit-transition: var(--transition-time);
 }
 
+.anchor-target {
+  scroll-margin-top: 60px;
+}
+
 .container {
   background-color: #ffffff;
   min-height: 100vh;
