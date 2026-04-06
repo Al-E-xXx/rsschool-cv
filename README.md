@@ -1,0 +1,2 @@
+[https://al-e-xxx.github.io/rsschool-cv/cv](https://al-e-xxx.github.io/rsschool-cv/cv "Deploy CV#1")
+[https://al-e-xxx.github.io/rsschool-cv/](https://al-e-xxx.github.io/rsschool-cv/ "Deploy CV#2/CV#3")
